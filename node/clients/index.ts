@@ -8,5 +8,4 @@ export class Clients extends IOClients {
     public get analytics() {
         return this.getOrSet('analytics', Analytics)
     }
-
 }
