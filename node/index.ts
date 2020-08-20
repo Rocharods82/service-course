@@ -9,8 +9,8 @@ import {
 import { Clients } from './clients'
 import { analytics } from './handlers/analytics'
 import { updateLiveUsers } from './event/liveUsersUpdate'
-// @ts-ignore
-import { productList } from '/.resolvers/products';
+
+import { productList } from './resolvers/products';
 
 
 // Create a LRU memory cache for the Status client.
@@ -65,6 +65,4 @@ export default new Service<Clients, State, ParamsContext>({
         },
 },
 },
-
-
 })

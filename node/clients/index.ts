@@ -1,5 +1,4 @@
 import { IOClients } from '@vtex/api'
-// @ts-ignore
 import Analytics from '../clients/analytics'
 
 
