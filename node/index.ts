@@ -58,13 +58,13 @@ export default new Service<Clients, State, ParamsContext>({
     }),
   },
 
- /*  graphql: {
+  graphql: {
     resolvers: {
         Query: {
             productList,
         },
 },
-}, */
+},
 
 
 })
