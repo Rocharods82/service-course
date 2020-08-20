@@ -33,7 +33,7 @@ export async function updateLiveUsers(ctx: EventContext<Clients>) {
           id: savedProduct?.id,
         })
 
-      } catch {
+      } catch(e) {
         console.log(`failed to update product ${slug}`)
         console.log(e)
       }
